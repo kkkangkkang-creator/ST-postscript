@@ -1,0 +1,13 @@
+{
+  "display_name": "추신 (프리필 강화)",
+  "loading_order": 110,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "kkkangkkang-creator",
+  "version": "1.0.0",
+  "homePage": "https://github.com/kkkangkkang-creator/ST-postscript",
+  "auto_update": false,
+  "hooks": {"enable": "onEnable", "disable": "onDisable"}
+}

@@ -1,0 +1,16 @@
+#st-postscript-settings { margin: 8px 0; color: inherit; }
+#st-postscript-settings .ps-drawer { border: 1px solid var(--SmartThemeBorderColor, #7776); border-radius: 10px; overflow: hidden; }
+#st-postscript-settings .ps-drawer > summary { cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px; }
+#st-postscript-settings .ps-drawer > summary small { display: block; margin-top: 3px; font-size: .8em; opacity: .7; }
+#st-postscript-settings .ps-content { padding: 0 12px 12px; }
+#st-postscript-settings .ps-badge { border: 1px solid currentColor; border-radius: 20px; padding: 2px 9px; font-size: .75em; opacity: .65; }
+#st-postscript-settings .ps-badge.active { opacity: 1; font-weight: bold; }
+#st-postscript-settings .ps-toggle { display: flex; align-items: center; gap: 8px; padding: 8px 0; cursor: pointer; }
+#st-postscript-settings .ps-field { display: block; margin: 14px 0; }
+#st-postscript-settings .ps-field > span { display: block; font-weight: 600; margin-bottom: 6px; }
+#st-postscript-settings .ps-field small { display: inline-block; font-weight: normal; font-size: .8em; opacity: .7; }
+#st-postscript-settings textarea { display: block; width: 100%; box-sizing: border-box; resize: vertical; min-height: 100px; line-height: 1.6; }
+#st-postscript-settings .ps-help, #st-postscript-settings .ps-status, #st-postscript-settings .ps-last { font-size: .82em; line-height: 1.6; margin: 8px 0; overflow-wrap: anywhere; }
+#st-postscript-settings .ps-help, #st-postscript-settings .ps-last { opacity: .75; }
+#st-postscript-settings .ps-preview summary { cursor: pointer; font-size: .85em; padding: 8px 0; }
+#st-postscript-settings pre { white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; font-size: .8em; max-height: 300px; overflow: auto; padding: 10px; border: 1px solid var(--SmartThemeBorderColor, #7776); border-radius: 6px; }
